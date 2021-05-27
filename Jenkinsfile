@@ -11,7 +11,7 @@ pipeline{
             }
             
             steps {
-                echo "build branch"
+                echo "build master branch"
                 sh 'ls -l'   
             }
         }
